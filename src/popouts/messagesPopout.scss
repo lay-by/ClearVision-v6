@@ -32,7 +32,7 @@
   padding-right: 10px;
   padding-left: 20px;
 }
-.guildIcon-IklRcj {
+.guildIcon_cccd03 {
   background-color: transparent;
 }
 
@@ -47,7 +47,7 @@
   &:last-child {
     border-bottom: none;
   }
-  +%pinnedMessageGroupWrapper {
+  + %pinnedMessageGroupWrapper {
     margin-top: -1px;
   }
 }
@@ -126,8 +126,17 @@
   &:hover {
     background: $hover-color;
   }
-  > svg {
-    fill: #fff;
+  > svg > g > path {
+    color: #fff;
+  }
+}
+
+// FORUM POST
+%messagesPopoutThread {
+  background: rgba(0, 0, 0, 0.1);
+  border: 2px solid var(--main-color);
+  &:hover {
+    border: 2px solid var(--hover-color);
   }
 }
 
@@ -152,5 +161,5 @@
 
 // DATE
 %recentMentionsPopout %dividerDate:after {
-  background-color: rgba(0,0,0,.93);
+  background-color: rgba(0, 0, 0, 0.93);
 }
