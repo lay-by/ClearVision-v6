@@ -13,6 +13,10 @@
 /* IMPORT CSS */
 @import url(https://clearvision.gitlab.io/v6/main.css);
 
+.body {
+  zoom: 90%;
+}
+
 /* SETTINGS */
 :root {
   /* ACCENT COLORS */
