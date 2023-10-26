@@ -13,12 +13,9 @@
 /* IMPORT CSS */
 @import url(https://clearvision.gitlab.io/v6/main.css);
 
-.body {
-  zoom: 90%;
-}
-
 /* SETTINGS */
 :root {
+  zoom: 90%;
   /* ACCENT COLORS */
   --main-color: #71B6BC; /* main accent color (hex, rgb or hsl) [default: #2780e6] */
   --hover-color: #71B6BC; /* hover accent color (hex, rgb or hsl) [default: #1e63b3] */
