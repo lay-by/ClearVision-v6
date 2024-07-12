@@ -13,7 +13,6 @@
       color: rgb(220, 221, 222);
     }
   }
-  
 }
 %addServerOption {
   background-color: $main-color;
@@ -23,7 +22,7 @@
   %addServerOptionText {
     color: #fff;
   }
-  %addServerOptionArrow{
+  %addServerOptionArrow {
     filter: brightness(0) invert(1);
   }
 }
@@ -31,22 +30,13 @@
   color: hsla(0, 0%, 100%, 0.7) !important;
 }
 // CREATE SERVER
-%themeLight {
-  %createServerTitle,
-  %createServerSubtitle {
-    color: hsla(0, 0%, 100%, 0.7) !important;
-  }
-  %createServerIconContainer > svg > circle {
-    fill: $main-color;
-  }
-  %createServerSkip {
-    color: hsla(0, 0%, 100%, 0.7) !important;
-  }
+%createServerIconContainer > svg > circle {
+  fill: $main-color;
 }
 %createServerOtherBackButton,
 %createServerBackButton {
   %buttonContents {
-    color: hsla(0, 0%, 100%, .7);
+    color: hsla(0, 0%, 100%, 0.7);
     &:hover {
       color: #fff;
       text-decoration: underline;
